@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Medis</string>
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_register">Register</string>
+    <string name="login_login">Login</string>
+    <string name="login_remember_me">Remember Me</string>
+    <string name="login_name">Driver</string>
+    <string name="register_username">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_password2">Repeat Password</string>
+    <string name="register_register">Register</string>
+    <string name="register_email">Email</string>
+    <string name="register_name">Driver</string>
+    <string name="new_entry_driver">Driver</string>
+    <string name="new_entry_sebastian_vettel">Sebastian Vettel</string>
+    <string name="new_entry_lewis_hamilton">Lewis Hamilton</string>
+    <string name="new_entry_felipe_massa">Felipe Massa</string>
+    <string name="new_entry_carlos_sainz">Carlos Sainz</string>
+    <string name="new_entry_kimi_raikkonen">Kimi Raikkonen</string>
+    <string name="new_entry_circuit">Circuit</string>
+    <string name="new_entry_monte_carlo_monaco">Monte Carlo, Monaco</string>
+    <string name="new_entry_spa_belgium">Spa, Belgium</string>
+    <string name="new_entry_sepang_malaysia">Sepang, Malaysia</string>
+    <string name="new_entry_melbourne_australia">Melbourne, Australia</string>
+    <string name="new_entry_montreal_canada">Montreal, Canada</string>
+    <string name="new_entry_time">Time(h)</string>
+    <string name="new_entry_1">1</string>
+    <string name="new_entry_2">2</string>
+    <string name="new_entry_3">3</string>
+    <string name="new_entry_4">4</string>
+    <string name="new_entry_5">5</string>
+    <string name="new_entry_6">6</string>
+    <string name="new_entry_7">7</string>
+    <string name="new_entry_8">8</string>
+    <string name="new_entry_9">9</string>
+    <string name="new_entry_10">10</string>
+    <string name="new_entry_team">Team</string>
+    <string name="new_entry_ferrari">Ferrari</string>
+    <string name="new_entry_red_bull">Red Bull</string>
+    <string name="new_entry_mercedes">Mercedes</string>
+    <string name="new_entry_williams">Williams</string>
+    <string name="new_entry_toro_rosso">Toro Rosso</string>
+    <string name="new_entry_team_chief">Team Chief</string>
+    <string name="new_entry_maurizio_arrivabene">Maurizio Arrivabene</string>
+    <string name="new_entry_christian_horner">Christian Horner</string>
+    <string name="new_entry_toto_wolff">Toto Wolff</string>
+    <string name="new_entry_frank_williams">Frank Williams</string>
+    <string name="new_entry_franz_tost">Franz Tost</string>
+
+
+    <string name="login_invalid_username">Invalid username</string>
+    <string name="login_invalid_password">Invalid password</string>
+
+</resources>

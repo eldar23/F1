@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:textColor="@color/colorPrimaryDark"
+    tools:context="com.example.egzaminai.medis.NewEntryActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+
+                />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:text="DRIVER REGISTRATION"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:textAlignment="center"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_driver" />
+
+            <Spinner
+                android:id="@+id/new_entry_driver_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_circuit" />
+
+            <Spinner
+                android:id="@+id/new_entry_circuit_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_time" />
+
+            <Spinner
+                android:id="@+id/new_entry_time_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_team" />
+
+            <RadioGroup
+                android:id="@+id/new_entry_teamRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/new_entry_team_ferrari_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/new_entry_ferrari" />
+
+                <RadioButton
+                    android:id="@+id/new_entry_team_red_bull_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_red_bull" />
+
+                <RadioButton
+                    android:id="@+id/new_entry_team_mercedes_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_mercedes" />
+
+                <RadioButton
+                    android:id="@+id/new_entry_team_williams_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_williams" />
+
+                <RadioButton
+                    android:id="@+id/new_entry_team_toro_rosso_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_toro_rosso" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/new_entry_team_chief" />
+
+            <RadioGroup
+                android:id="@+id/new_entry_team_chiefRadioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/new_entry_team_chief_maurizio_arrivabene_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/new_entry_maurizio_arrivabene" />
+
+                <RadioButton
+                    android:id="@+id/new_entry_team_chief_christian_horner_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_christian_horner" />
+
+                <RadioButton
+                    android:id="@+id/new_entry_team_chief_toto_wolff_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_toto_wolff" />
+
+                <RadioButton
+                    android:id="@+id/new_entry_team_chief_frank_williams_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_frank_williams" />
+
+                <RadioButton
+                    android:id="@+id/new_entry_team_chief_franz_tost_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_entry_franz_tost" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:textAlignment="center"
+
+                    />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/new_entry_delete_button_id"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorRed"
+                    android:text="DELETE" />
+
+                <Button
+                    android:id="@+id/new_entry_add_button_id"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorGreen"
+                    android:text="ADD" />
+
+                <Button
+                    android:id="@+id/new_entry_update_button_id"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/colorYellow"
+                    android:text="UPDATE" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

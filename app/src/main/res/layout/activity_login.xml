@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+
+
+    tools:context="com.example.egzaminai.medis.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/login_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:text="F1 DRIVER REGISTRATION SYSTEM"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold"
+
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/login_username" />
+
+        <EditText
+            android:id="@+id/login_username_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/login_password" />
+
+        <EditText
+            android:id="@+id/login_password_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword" />
+
+        <CheckBox
+            android:id="@+id/remember_me_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_remember_me" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/login_login_button_id"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorYellow"
+                android:layout_alignParentLeft="true"
+                android:text="@string/login_login" />
+
+            <Button
+                android:id="@+id/login_register_button_id"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGreen"
+                android:layout_alignParentRight="true"
+                android:text="@string/login_register" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

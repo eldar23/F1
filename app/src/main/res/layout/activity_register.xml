@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorBackground"
+
+    tools:context="com.example.egzaminai.medis.RegisterActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/register_layout_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="NEW USER REGISTRATION"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="25sp"
+            android:textColor="@color/colorAccent"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"
+
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/helmet"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/register_username"
+            />
+
+        <EditText
+            android:id="@+id/register_username_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/register_email"
+            />
+
+        <EditText
+            android:id="@+id/register_email_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/register_password" />
+
+        <EditText
+            android:id="@+id/register_password_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/register_password2" />
+
+        <EditText
+            android:id="@+id/register_password2_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:id="@+id/register_register_button_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorGreen"
+            android:text="@string/register_register"
+            />
+
+
+    </LinearLayout>
+</RelativeLayout>
